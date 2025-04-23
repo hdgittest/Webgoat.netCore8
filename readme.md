@@ -1,8 +1,8 @@
-# WebGoat.NET version 0.2
+# WebGoat.NET version 0.3
 
 ## Build status
 
-![build .NET 7](https://github.com/tobyash86/WebGoat.NET/workflows/build%20.NET%207/badge.svg)
+![build .NET 8](https://github.com/tobyash86/WebGoat.NET/workflows/build%20.NET%208/badge.svg)
 
 ## The next generation of the WebGoat example project to demonstrate OWASP TOP 10 vulnerabilities
 
@@ -26,7 +26,7 @@ RUNNING!
    `--disable-xss-auditor`.
 
 ## Requirements
-- .NET 7 SDK
+- .NET 8 SDK
 
 ## How to build and run
 
@@ -38,6 +38,8 @@ To build a Docker image, execute the following command:
 ```sh
 docker build --pull --rm -t webgoat.net .
 ```
+
+Please note that Linux image is already built by pipeline and can be pulled from [here](https://github.com/users/tobyash86/packages?repo_name=WebGoat.NET).
 
 #### Linux containers
 
